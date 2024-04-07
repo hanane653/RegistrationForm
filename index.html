@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="C:\Users\hp\Desktop\registration page\style.css">
+        </header>
+
+<body>
+    <h2 id="title"> Registration form</h2>
+    <form id="registrationForm" onsubmit="validateForm(event)" class="form-horizontal">
+        <div class="form-group">
+          <label for="name" class="col-sm-2 control-label">Name:</label>
+          <div class="col-sm-10">
+            <input type="text" id="name" class="form-control" required>
+            <span id="nameError" class="error"></span>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="email" class="col-sm-2 control-label">Email:</label>
+          <div class="col-sm-10">
+            <input type="email" id="email" class="form-control" required>
+            <span id="emailError" class="error"></span>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="password" class="col-sm-2 control-label">Password:</label>
+          <div class="col-sm-10">
+            <input type="password" id="password" class="form-control" required>
+            <span id="passwordError" class="error"></span>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <label for="confirmPassword" class="col-sm-2 control-label">Confirm Password:</label>
+          <div class="col-sm-10">
+            <input type="password" id="confirmPassword" class="form-control" required>
+            <span id="confirmPasswordError" class="error"></span>
+          </div>
+        </div>
+      
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </div>
+      </form>
+  <script src="C:\Users\hp\Desktop\registration page\app.js"></script>
+    
+</body>
+</html>
